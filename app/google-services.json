@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "719526502135",
+    "firebase_url": "https://gobus-7e31f.firebaseio.com",
+    "project_id": "gobus-7e31f",
+    "storage_bucket": "gobus-7e31f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719526502135:android:3105ca450241aa15e2bdf2",
+        "android_client_info": {
+          "package_name": "com.example.gobus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719526502135-cmip6o3dctn40d6otaqhn2i55m4kvr5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gobus",
+            "certificate_hash": "d5cac425ed2ac17389ebb37e2bf3ca42ad091100"
+          }
+        },
+        {
+          "client_id": "719526502135-6crmmp5b6ctgkioktvabqldihungvgon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOiWH8oSc6HoyjaxvLIeHpOH7_pHsQe4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719526502135-6crmmp5b6ctgkioktvabqldihungvgon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

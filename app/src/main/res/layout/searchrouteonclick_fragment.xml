@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_adminpannel">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/searchonclick_constraint"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/searchroute_onclick_routes"
+            android:layout_width="167dp"
+            android:layout_height="69dp"
+            android:gravity="center"
+            android:text="177 , 17"
+            android:textColor="@color/textwhite"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/searchroute_onclick_distance"
+            android:layout_width="167dp"
+            android:layout_height="69dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:text="40KM"
+            android:textColor="@color/textwhite"
+            android:textSize="30sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/searchroute_onclick_routes"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/searchroute_onclick_routes" />
+
+        <TextView
+            android:id="@+id/searchroute_onclick_ticketprice"
+            android:layout_width="202dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="Rs.45.00"
+            android:textColor="@color/textwhite"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/searchroute_onclick_routes" />
+
+        <TextView
+            android:id="@+id/searchroute_onclick_timeduration"
+            android:layout_width="202dp"
+            android:layout_height="70dp"
+            android:layout_alignEnd="@+id/searchonclick_constraint"
+            android:layout_alignBottom="@+id/searchonclick_constraint"
+            android:gravity="center"
+            android:text="40min"
+            android:textColor="@color/textwhite"
+            android:textSize="24sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/searchroute_onclick_ticketprice"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/searchroute_onclick_ticketprice" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

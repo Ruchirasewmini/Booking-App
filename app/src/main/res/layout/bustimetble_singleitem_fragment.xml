@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    app:cardElevation="15dp">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/bg_adminpannel">
+
+            <TextView
+                android:id="@+id/bustimetable_busnumber"
+                android:layout_width="71dp"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:text="Bus Number"
+                android:textColor="@color/textwhite"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/bustimetable_busroute"
+                android:layout_width="61dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Route"
+                android:textColor="@color/textwhite"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/bustimetable_time"
+                android:layout_width="94dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Start Time"
+                android:textColor="@color/textwhite"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/bustimetable_startingPlace"
+                android:layout_width="138dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Starting Place"
+                android:textColor="@color/textwhite"
+                android:textSize="20dp" />
+
+
+        </TableRow>
+    </TableLayout>
+
+</androidx.cardview.widget.CardView>

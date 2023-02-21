@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_adminpannel">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bustimetable_recyle_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp" />
+
+    <ImageView
+        android:id="@+id/bustimetable_fragment_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="139dp"
+        app:srcCompat="@drawable/timetable" />
+
+    <EditText
+        android:id="@+id/searchbustimetable"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/bustimetable_fragment_icon"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/editt_bg"
+        android:gravity="center"
+        android:hint="Search Times........"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

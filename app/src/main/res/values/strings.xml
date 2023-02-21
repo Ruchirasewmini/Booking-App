@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GoBus</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="username">User Name</string>
+    <string name="loginpassword">Password</string>
+    <string name="logintxt">Login Now</string>
+    <string name="registeremail">Email</string>
+</resources>

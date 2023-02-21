@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ShowIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/adminhome"
+            android:title="Admin Pannel Home"></item>
+
+        <item android:id="@+id/addroute"
+            android:title="Add Routes"></item>
+
+        <item android:id="@+id/addsearchroutes"
+            android:title="Add Search Routes"></item>
+
+        <item android:id="@+id/addbusdetails"
+            android:title="Add Bus Details"></item>
+
+        <item android:id="@+id/addtimetable"
+            android:title="Add Time Table"></item>
+
+
+    </group>
+
+
+
+</menu>

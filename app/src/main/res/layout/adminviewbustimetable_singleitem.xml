@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="15dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_adminpannel">
+
+        <TextView
+            android:id="@+id/admin_view_bustimetable_Id"
+            android:layout_width="77dp"
+            android:layout_height="29dp"
+            android:text="Id"
+            android:textColor="@color/textwhite"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/admin_view_bustimetable_busnumber"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="73dp"
+            android:layout_marginTop="1dp"
+            android:text="Bus Number"
+            android:textAlignment="center"
+            android:textColor="@color/textwhite"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/admin_view_bustimetable_busroute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/admin_view_bustimetable_busnumber"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="0dp"
+            android:text="Bus Route"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/textwhite"/>
+
+        <TextView
+            android:id="@+id/admin_view_bustimetable_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/admin_view_bustimetable_busroute"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="0dp"
+            android:text="Time"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/textwhite"/>
+
+        <TextView
+            android:id="@+id/admin_view_bustimetable_startingplace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/admin_view_bustimetable_time"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="0dp"
+            android:text="Starting Place"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/textwhite"/>
+
+
+
+        <Button
+            android:id="@+id/admin_view_bustimetable_updatebutton"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_below="@+id/admin_view_bustimetable_startingplace"
+            android:background="@android:color/holo_green_light"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/admin_view_bustimetable_deletebutton"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_below="@+id/admin_view_bustimetable_updatebutton"
+            android:background="@android:color/holo_red_light"
+            android:text="Delete" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
